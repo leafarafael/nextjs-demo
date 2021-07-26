@@ -1,5 +1,4 @@
 import classes from './MeetupDetail.module.css';
-import Image from 'next/image';
 
 function MeetupDetail(props){
     return (
