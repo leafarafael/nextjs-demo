@@ -15,8 +15,6 @@ function newMeetupPage(){
         });
 
         const data = await response.json();
-
-
         router.push('/');
     }
 
