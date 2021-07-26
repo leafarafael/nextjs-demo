@@ -1,10 +1,10 @@
 import {Fragment} from 'react';
-import {useRouter} from 'next/router';
+import {UseRouter} from 'next/router';
 
 import NewMeetupForm from '../../components/meetups/NewMeetupForm';
 
 function newMeetupPage(){
-    const router = useRouter();
+    const router = UseRouter();
 
     async function addMeetupHander(enteredMeetupData){
         const response = await fetch('/api/new-meetup', {
